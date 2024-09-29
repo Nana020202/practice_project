@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+ 
+<head>
+	<meta charset="utf-8" />
+	<title>動物詳細画面</title>
+</head>
+ 
+<body>
+	<h1>登録完了</h1>
+	<p th:text="'No： ' + ${animal.id}"></p>
+	<p th:text="'英名： ' + ${animal.name}"></p>
+	<p th:text="'和名： ' + ${animal.japaneseName}"></p>
+	<p th:text="'鳴き声： ' + ${animal.cry}"></p>
+	<a href="/animalsAPI" class="button">トップへ</a>
+</body>
+ 
+</html>
